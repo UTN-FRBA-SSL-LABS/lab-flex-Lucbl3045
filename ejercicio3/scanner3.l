@@ -35,8 +35,8 @@ int main(void) {
     yylex();
 
     /* TODO 3 — Imprimir el total de tokens al finalizar
-       Formato esperado: printf("Tokens totales: %d\n", contadorTokens);          *
-       printf("Tokens totales: %d\n", contadorTokens);
+       Formato esperado: printf("Tokens totales: %d\n", contadorTokens);          */
+   printf("Tokens totales: %d\n", contadorTokens);
 
     /* TODO 4 — Imprimir el doble del total usando la función duplicar()
        Formato esperado: printf("El doble es: %d\n", duplicar(contadorTokens));   */
